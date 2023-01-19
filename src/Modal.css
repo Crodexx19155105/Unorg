@@ -1,0 +1,25 @@
+.nav2-menu {
+    background-color: #fbffff;
+    width: 50%;
+    height: 100vh;
+    /* padding: 4%; */
+    /* display: flex; */
+    /* justify-content: left; */
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: 850ms;
+  }
+  
+  .nav2-menu.active {
+    right: 0;
+    transition: 350ms;
+  }
+  .header{
+    background-color: #effbfd;
+    padding: 1.5vw;
+  }
+  .inpform{
+    padding: 1.5vw;
+    margin-top: 30px;
+  }

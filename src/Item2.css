@@ -1,0 +1,18 @@
+.editb {
+  background-color: #77dd77;
+  border: none;
+  cursor: pointer;
+  height: 26.4px;
+}
+.deleteb {
+  background-color: #f4736b;
+  border: none;
+  cursor: pointer;
+}
+.user3 {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  object-fit: cover;
+}

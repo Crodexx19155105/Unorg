@@ -1,0 +1,37 @@
+.nav3-menu {
+  background-color: #fbffff;
+  width: 100%;
+  position: fixed;
+  bottom: -100%;
+  transition: 850ms;
+}
+
+.nav3-menu.active {
+    bottom: 0%;
+    transition: 350ms;
+}
+.header2 {
+    background-color: #effbfd;
+    padding: 1.5vw;
+}
+.butt_c {
+  color: white;
+  font-size: calc(11px + 0.5vw);
+  padding: 0.5vw 1vw;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.conf {
+  background-color: #77dd77;
+  border-color: #77dd77;
+}
+.canc {
+  background-color: #f4736b;
+  border-color: #f4736b;
+}
+.butts{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}

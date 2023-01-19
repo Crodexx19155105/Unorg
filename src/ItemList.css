@@ -1,0 +1,35 @@
+.papagrid{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin-top: 15px;
+}
+.headings {
+  font-size: 20px;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns:minmax(120px,15%) minmax(120px,35%) minmax(120px,20%) minmax(120px,15%) minmax(120px,15%);
+  overflow:scroll;
+}
+.headings::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.headings {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.headings2 {
+  font-size: 20px;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns:50% 50% ;
+  grid-auto-rows: 26.4;
+}
+.top{
+  border-bottom: 2px solid black;
+}
+.tp{
+  height: 26.4px;
+  border-bottom: 2px solid black;
+}
